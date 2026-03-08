@@ -1,0 +1,7 @@
+gemini:
+  api-key: GEMINI_API_KEY
+  chat-url: https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
+  embedding-url: https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent
+qdrant:
+  url: http://localhost:6333
+  collection: research_papers
